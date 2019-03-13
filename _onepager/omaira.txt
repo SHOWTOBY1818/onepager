@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta Charset= "UTF-8">
+		<title> One Site Pager </title>
+		<link rel= "style sheet" href="css/style.css">
+</head>
+<body>
+	<div class="mail-content">
+
+		<div id="nav" class="clear>
+			<div class="logo"><img src="img/logo-company.
+			<h1>Web Development</h1> Logo"><div>
+			<p>The Mayor's Office of Data Analytics and Department of Information Technology and Telecomunications (DoITT) partner to manage the NYC Open Data program.
+			</div class="nav-list">
+				<ul class="navbar">
+					<li><a href="#about">about</a></li>
+					<li><a href="blog">Blog</a></li>
+					<li><a href="services">#Services</a><li>
+					<li><a href="#contact">Contact</a></li>
+				<ul>
+			</div>
+		</div>
+		<div
+		<address>1234 Malcom X Blvd</address>New York,New York 10027
+		<a>someone@example.com</a>
+		<a>555-123-4567
+
+
+
+_____________________________________________________________________________________________
+<!DOCTYPE html>		
+<html lan="en">
+<html>
+<head>
+<body>
+	<div>
+		<h1> Web Development</h1><div>
+		<p>Silicom Harlem is a social ventue that has been designed to transform Harlem into a technology and innovation hub.
+		</p>
+	</div>
+		<h2> BLOG</h2>
+		<div>
+			<IMAGE><DIV>
+		<h3>INAGURAL OPEN DATA ADVISORY COUNCIL MEMBERS ANNOUNCED
+		<P>The Mayor's Office of Data Analytics and Department of information Technology and Telecommunications (DoITT) partner to manage the NYC Open Data program.
+		</p>
+
+	
+	<div>
+		<h2>SERVICE</h2>
+		<h3>THE ONGOING FOCUS</h3>
+	<ul>
+		<li><a href="https://www.google.com">Harlem</a></li>	
+		<li> Inwood</li><li>
+		. Gigabit Harlem
+		. Galvanize Community
+		.Edication
+		.Innovation Centerand Jobs
+	<div>
+		<h2>CONTACT US</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+						
