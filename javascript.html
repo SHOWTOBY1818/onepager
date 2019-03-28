@@ -22,11 +22,27 @@
 		console.log("x + y * a" , x + y * a);
 		console.log("year string: ", y)
 
+
+
+
 	</script>
 	<script type="text/javascript" src="js/site.js">
 	</script>
 </head>
 <body>
+<address>123 Somewhere<br>
+		<span class="city"></spam> <br>
+		<span id="state"></span> <br>
+		<span class="zipcode"></span> <br>
+		<a id="map"><a>
+</address>
+
+
+<script type="text/javascript">
+	document.getElementById("state").innerHTML= myObj.state;
+	document.getElementById("state").className = "mystyle";
+	document.getElemensByClassName(".zipcode").innerHTML = myObj.zipcode;
+
 
 </body>
 </html>
