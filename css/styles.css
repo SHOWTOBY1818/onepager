@@ -1,13 +1,13 @@
 body { 
-	font-family: "Times New Roman",Times,serif;
+	font-family: "Times New Roman",Times,;
 	font-size: 1rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
 h1 { 
-	margin: 10;
-	padding: 5 px;
-	/* i would like to have a tinny space between images */
+	margin: 0;
+	padding: 0;
+
 }
 p {
 	color: #000;
@@ -16,7 +16,7 @@ img {
 	display: block;
 }
 a {
-	text-decoration: none;
+	text-decoration: ;
 }
 address {
 	font-style: normal;
@@ -30,12 +30,12 @@ address {
 	border: 5 px;
 	color: solid yellow;
 }
-.row-container .two-column img {
+.row-container .two-column : url(../img/IMG-9984.JPG); {
 	width: 100%
 	color: #000;
 	font-size: 14px;
 }
-.row-container .three-column h2 {
+.row-container .three-column h2 : url(../border-image-width/img/IMG-9136.JPG);{
 	color: #000;
 	font-size: 36px;
 	margin: 54px 0;
@@ -57,7 +57,7 @@ address {
 	width: 50%;
 }
 
-/* Style for Nav Bar */
+
 #nav {
 	display: block;
 	position: relative;
@@ -80,7 +80,7 @@ address {
 ul.navbar {
 	display: block;
 	text-align: right;
-	margin: 15% 0 0 0;
+	margin: 15%;
 }
 .navbar li {
 	font-size: 16px;
@@ -92,7 +92,7 @@ ul.navbar {
 
 .banner {
 	background-color: #009ddc;
-	background-image: url("../img/IMG-9984.JPG");
+	background-image: url(../img/IMG-9984.JPG);
 	padding: 20px 40px;
 }
 
@@ -122,14 +122,14 @@ ul.navbar {
 	width: 36%;
 	margin-right: 5%;
 }
-.blog-content .image-container img {
+.blog-content .image-container : url../img/image-rendering: IMG-9386.JPG);{
 	width: 100%;
 }
 .blog-content .post-container {
 	width: 40%;
 }
 
-/* Styling for HTML blog table */
+
 table.table-content { 
 	display: table;
 	border-collapse: separate;
@@ -144,15 +144,13 @@ table.table-content img {
 	width: 100%;
 } 
 
-/* Styling for HTML contact box */
 #contact a {
   color: #07aeda;
   text-decoration: none;
 }
 
-/* Using background images */
 #csscoverbackgroundimage.cssBackgroundImages {
-	background-image: url(../img/IMG-9984.jpg);
+	background-image: url(../img/IMG-9984.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top left;
@@ -160,22 +158,36 @@ table.table-content img {
 	padding: 25px;
 }
 #csscontainbackgroundimage.cssBackgroundImages {
-	background-image: url(../img/img-programers.jpg);
+	background-image: url(../img/IMG-9984.JPG);
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: center center;
 	background-color: #7fffd4;
-	padding: 25px;
+	padding: 
 
 }
 
 .cssBackgroundImages .container {
 	padding: 25px;
-	color: #fff;
+	color: #98FB98;
 	position:relative;
-	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
-	background: rgba(204, 204, 204, 0.5);
+	background: rgb(204, 204, 204); 
+	background: rgba(255, 60, 15, .75);
 }
+.cssBackgroundImages px
+	color:
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Form Formating 
 	font-family: 'PT Sans', sans-serif;
