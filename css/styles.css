@@ -1,10 +1,10 @@
 body { 
-	font-family: "Helvetica Neue",Arial,sans-serif;
+	font-family: "Times New Roman",Times,serif;
 	font-size: 1rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
-h1, h2, h3 { 
+h1 { 
 	margin: 10;
 	padding: 5 px;
 	/* i would like to have a tinny space between images */
@@ -24,20 +24,27 @@ address {
 .clear {
 	overflow: auto;
 }
+
 .content {
 	margin: 0 25px;
+	border: 5 px;
+	color: solid yellow;
 }
-.container p {
+.row-container .two-column img {
+	width: 100%
 	color: #000;
 	font-size: 14px;
 }
-.container h2 {
+.row-container .three-column h2 {
 	color: #000;
 	font-size: 36px;
 	margin: 54px 0;
-}
+	flex-flow: left;
+	width: 33%
+}	
 .floatleft {
 	float: left;
+	width: 33%
 }
 .row-box {
 	position: relative;
@@ -55,7 +62,7 @@ address {
 	display: block;
 	position: relative;
 	margin-bottom: 40px; 
-	color: #373a3c;
+	color: #adff2f;
 }
 #nav .logo { 
 	float: left;
@@ -63,11 +70,12 @@ address {
 }
 #nav .nav-list { 
 	float: right;
+	"font-size-adjust" 
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 14px;
 }
 #nav .nav-list a { 
-	color: #1e1658;
+	color: #228b22;
 }
 ul.navbar {
 	display: block;
@@ -89,14 +97,14 @@ ul.navbar {
 }
 
 .banner h1 {
-	font-size: 64px;
+	font-size: 84px;
 	text-transform: uppercase;
 	text-align: center;
-	color: #fff;
+	color: #9ACD32;
 }
 .banner p {
 	font-size: 22px;
-	color: #000;
+	color: #faebd7;
 	font-weight: 200;
 }
 
@@ -156,7 +164,7 @@ table.table-content img {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-color: #000;
+	background-color: #7fffd4;
 	padding: 25px;
 
 }
@@ -167,22 +175,6 @@ table.table-content img {
 	position:relative;
 	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
 	background: rgba(204, 204, 204, 0.5);
-}
-.cssBackgroundImages p {
-	color: #e6ffe6;
-	columns: {
-	floatleft:;
-	padding: 20px
-	clearfix::after{;
-	content: :"images cssBackgroundImages";
-	display: table-row;
-	menu width: 25%;
-
-	content{
-		width: 75%
-	} 
-
-	}
 }
 
 /* Form Formating 
@@ -195,7 +187,7 @@ textarea, select, input, button { outline: none; }
 .clearfix { overflow: auto; }
 .clearfix:before,
 .clearfix:after {
-    content: " img-0087.png"; 
+    content: ""; 
     display: table;
 }
 
@@ -319,7 +311,8 @@ textarea, select, input, button { outline: none; }
 */
 	-moz-box-shadow:	3px 3px 5px 6px #ccc;
 	-webkit-box-shadow:	3px 3px 5px 6px #ccc;
-	box-shadow:			3px 3px 5px 1px #ccc;}
+	box-shadow:			3px 3px 5px 1px #ccc;
+}
 
 /* Slick Slider */
 .slick-container {
@@ -427,4 +420,41 @@ transition: color 12s, font-size 12s;
 		font-size: 60px;
 		transition: font 5s ease;
 	}
+}
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) {
+	.container, .container-fluid {
+		background-color: transparent;
+	}
+}
+/*
+// Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) {
+	.container, .container-fluid {
+		background-color: transparent;
+	} 
+}
+/*
+// Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { 
+	.container, .container-fluid {
+		background-color: transparent;
+	}
+ }
+/*
+
+// Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) {
+	.container, .container-fluid {
+		background-color: transparent;
+	}
+
 }
