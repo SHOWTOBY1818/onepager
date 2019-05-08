@@ -1,0 +1,472 @@
+body { 
+	font-family: "Times New Roman",Times,;
+	font-size: 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1 { 
+	margin: 0;
+	padding: 0;
+
+}
+p {
+	color: #000;
+}
+img {
+	display: block;
+}
+a {
+	text-decoration: ;
+}
+address {
+	font-style: normal;
+}
+.clear {
+	overflow: auto;
+}
+
+.content {
+	margin: 0 25px;
+	border: 5 px;
+	color: solid yellow;
+}
+.row-container .two-column : url(../img/IMG-9984.JPG); {
+	width: 100%
+	color: #000;
+	font-size: 14px;
+}
+.row-container .three-column h2 : url(../border-image-width/img/IMG-9136.JPG);{
+	color: #000;
+	font-size: 36px;
+	margin: 54px 0;
+	flex-flow: left;
+	width: 33%
+}	
+.floatleft {
+	float: left;
+	width: 33%
+}
+.row-box {
+	position: relative;
+	display: block;
+	width: 100%;
+	clear: left;
+}
+.col {
+	float: left;
+	width: 50%;
+}
+
+
+#nav {
+	display: block;
+	position: relative;
+	margin-bottom: 40px; 
+	color: #adff2f;
+}
+#nav .logo { 
+	float: left;
+	margin-left: 10%; 
+}
+#nav .nav-list { 
+	float: right;
+	"font-size-adjust" 
+	font-weight: bold;
+	font-size: 14px;
+}
+#nav .nav-list a { 
+	color: #228b22;
+}
+ul.navbar {
+	display: block;
+	text-align: right;
+	margin: 15%;
+}
+.navbar li {
+	font-size: 16px;
+	display: inline;
+	margin-right: 23px;
+}
+
+/*Introduction banner box */
+
+.banner {
+	background-color: #009ddc;
+	background-image: url(../img/IMG-9984.JPG);
+	padding: 20px 40px;
+}
+
+.banner h1 {
+	font-size: 84px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #9ACD32;
+}
+.banner p {
+	font-size: 22px;
+	color: #faebd7;
+	font-weight: 200;
+}
+
+/* Styling for blog box */
+
+.blog-content {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-bottom: 25px;
+	clear: left;
+}
+
+.blog-content .image-container {f
+	width: 36%;
+	margin-right: 5%;
+}
+.blog-content .image-container : url../img/image-rendering: IMG-9386.JPG);{
+	width: 100%;
+}
+.blog-content .post-container {
+	width: 40%;
+}
+
+
+table.table-content { 
+	display: table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: red;
+}
+table.table-content td {
+	padding: 0 5% 0 0;
+	vertical-align: top;
+}
+table.table-content img {
+	width: 100%;
+} 
+
+#contact a {
+  color: #07aeda;
+  text-decoration: none;
+}
+
+#csscoverbackgroundimage.cssBackgroundImages {
+	background-image: url(../img/IMG-9984.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-color: #000;
+	padding: 25px;
+}
+#csscontainbackgroundimage.cssBackgroundImages {
+	background-image: url(../img/IMG-9984.JPG);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #7fffd4;
+	padding: 
+
+}
+
+.cssBackgroundImages .container {
+	padding: 25px;
+	color: #98FB98;
+	position:relative;
+	background: rgb(204, 204, 204); 
+	background: rgba(255, 60, 15, .75);
+}
+.cssBackgroundImages px
+	color:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Form Formating 
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Lilita One', cursive;
+	font-family: 'Barlow', sans-serif;
+*/
+textarea, select, input, button { outline: none; }
+
+.clearfix { overflow: auto; }
+.clearfix:before,
+.clearfix:after {
+    content: ""; 
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.page-banner {
+	background-color: #444;
+	color: #fff;
+	padding: 50px 0;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.page-banner h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 60px;
+}
+#contactform, .form-row {
+	position: relative;
+	margin-bottom: 10px;
+}
+.containerposition {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.servicescontainer {
+	background-color: #6d98dc;
+	background-image: url("../img/h-slice.jpg");
+	background-repeat: repeat-y;
+	padding: 25px;
+}
+.servicescontainer .arrows {
+	margin-bottom: 20px;
+	text-align: right;
+}
+.servicescontainer .fontawesome span {
+	font-size: 10px;
+	border-radius: 15px 5px 15px 5px;
+}
+.servicescontainer span {
+	background-color: #fff;
+	color: #93bae5;
+	padding: 17px;
+	display: inline-block;
+}
+#gallerycontainer {
+	position: relative;
+}
+#gallerycontainer .images-details {
+	float: left;
+	width: 30%;
+	height: 400px;
+}
+#gallerycontainer .images-details img {
+	width: 100%;
+}
+.form-wrap .form-group {
+	margin-bottom: 10px;
+}
+.form-row  .form-group {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.form-group small {
+	color: #6c757d;
+	font-size: 80%;
+    font-weight: 400;
+}
+.form-wrap .form-group label {
+	font-family: 'PT Sans', sans-serif;
+}
+.form-wrap .form-group input {
+	border: 1px solid #ccc;
+}
+.form-wrap .form-group input.error {
+	border: 1px solid red;
+}
+
+.form-wrap .form-group input[type="text"] {
+	width: 100%;
+	max-width: 300px;
+}
+.form-wrap .form-group label,
+.form-wrap .form-group input {
+	display: block;
+}
+.form-wrap .form-check label,
+.form-wrap .form-check input {
+	display: inline-block;
+}
+.form-wrap fieldset {
+	border: 0;
+	padding: 0;
+}
+
+.form-wrap fieldset .sidecheckbox label,
+.form-wrap fieldset .sidecheckbox input {
+	display: inline;
+}
+.form-wrap .btn {
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Barlow', sans-serif;
+	background-color: #007bff;
+	border: 0;
+	border-color: #007bff;
+	border-radius: 50%;
+	text-shadow: none;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+}
+
+.form-wrap .btn:hover {
+	text-shadow: 2px 2px #444;	
+/*
+	horizontal offset  vertical offset blur radius (optional) spread radius (optional) Color
+*/
+	-moz-box-shadow:	3px 3px 5px 6px #ccc;
+	-webkit-box-shadow:	3px 3px 5px 6px #ccc;
+	box-shadow:			3px 3px 5px 1px #ccc;
+}
+
+/* Slick Slider */
+.slick-container {
+	background-color: #444;
+	width: 330px;
+	margin: 0 auto;
+}
+.myslide {
+	position: relative;
+}
+.myslide img {
+    margin: 0 auto;
+    background-color: #fff;
+    border: 5px solid #ff0000;
+    padding: 10px;
+}
+.myslide .overlay {
+	background-color: #444;
+	width: 100%;
+	height: 430px;
+	opacity: 0.45;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 1;
+}
+.myslide .overlay:hover {
+	opacity: 0;
+}
+.myslide .text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	background-color: green;
+	width: 100%;
+}
+.myslide .text p {
+	color: #fff;
+	font-size: 30px;
+}
+.myslide .text a,
+.myslide .text a:link,
+.myslide .text a:active,
+.myslide .text a:visited,
+.myslide .text a:hover {
+	color: red;
+}
+/* Footer HTML5 */
+footer {
+	background-color: #444;
+	color: gray;
+	margin-top: 5%;
+	padding: 5% 0;
+	text-align: center;
+
+}
+footer p {color: #fff;}
+footer .socialmedia { color: red; font-size: 50px; }
+footer a,
+footer a:link,
+footer a:visited,
+footer a:active {
+	color: #fff;
+}
+
+/*
+Make sure to set grid values in px (not rem, em, or %)
+	sm: 	420px,
+	md: 	720px,
+	lg: 	960px,
+	x-lg: 	1024px
+
+----CSS3 transition
+-- transition sets
+transition: font-size 12s; 	transition is set to font-size at 12 seconds duration
+transition: color 12s; 		transition is set to color at 12 seconds duration
+
+-- combine them all into one declaration:
+transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+		-o-transition: all 0.3s ease;
+			-ms-transition: all 0.3s ease;
+
+
+transition: color 12s, font-size 12s;
+-webkit-transition: color 12s, font-size 12s;
+   -moz-transition: color 12s, font-size 12s;
+     -o-transition: color 12s, font-size 12s;
+*/
+
+@media (max-width: 720px) {
+	.banner h1 {
+		font-size: 32px;
+		transition: font 3s ease;
+	}
+	.blog-content .floatleft {
+		float: none;
+		width: 100%;
+	}
+}
+@media (min-width: 960px) {
+	.banner h1 {
+		font-size: 60px;
+		transition: font 5s ease;
+	}
+}
+/*
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) {
+	.container, .container-fluid {
+		background-color: transparent;
+	}
+}
+/*
+// Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) {
+	.container, .container-fluid {
+		background-color: transparent;
+	} 
+}
+/*
+// Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { 
+	.container, .container-fluid {
+		background-color: transparent;
+	}
+ }
+/*
+
+// Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) {
+	.container, .container-fluid {
+		background-color: transparent;
+	}
+
+}
